@@ -14,7 +14,7 @@ class ET_FireEvent extends ET_CUDSupportRest
     */ 
 	function __construct()
 	{
-		$this->endpoint = "https://www.exacttargetapis.com/interaction/v1/events";
+		$this->path = "/interaction/v1/events";
 		$this->urlProps = array();
 		$this->urlPropsRequired = array();
 	}
